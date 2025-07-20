@@ -1,22 +1,33 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #FFFFFF; /* White */
-  color: #0000FF; /* Blue */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000FF; /* Blue */
+}
+
+.container {
+  text-align: center;
 }
 
 button {
-  background-color: #0000FF; /* Blue */
-  color: #FFFFFF; /* White */
-  padding: 10px 20px;
+  background-color: #FFFFFF; /* White */
+  color: #0000FF; /* Blue */
+  padding: 20px 40px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
+  font-size: 24px;
 }
 
 button:hover {
-  background-color: #0033CC; /* Darker Blue */
+  background-color: #DDDDDD; /* Light Gray */
 }
 
 h1 {
-  color: #0000FF; /* Blue */
+  color: #FFFFFF; /* White */
+  font-size: 48px;
 }
